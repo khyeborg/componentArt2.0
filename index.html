@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Art</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.29/vue.global.js"></script>
+    <script src="main.js" defer></script>
+
+</head>
+<body>
+    <h1>COMPONENT ART</h1>
+    <p>Hover over each pokemon a couple of times and see what happens!</p>
+    <div id="app">
+        <pokemon v-for="a in pokemon" :pokemondata="a"></pokemon>
+    </div>
+</body>
+</html>
